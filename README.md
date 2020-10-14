@@ -16,7 +16,7 @@ A simple template that can help you to create electron app using both react *(cl
 
     $	git clone https://github.com/biostunt/ClientServerAppTemplate
     $	cd ClientServerAppTemplate
-    $ npm install
+    $   npm install
 
 ## Structure
 Project divided by two parts: 
