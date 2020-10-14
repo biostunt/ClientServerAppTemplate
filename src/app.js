@@ -15,6 +15,7 @@ const createWindow = () => {
   });
   mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
   mainWindow.webContents.openDevTools();
+  console.log('[Electron] window loaded.');
 };
 
 app.on('ready', createWindow);
